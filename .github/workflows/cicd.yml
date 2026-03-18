@@ -1,0 +1,16 @@
+name: CI/CD TodoWam app
+
+on:
+    push:
+        branches: [main]
+
+env:
+    PROJECT_NAME: TodoWam
+
+jobs:
+    build-deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
