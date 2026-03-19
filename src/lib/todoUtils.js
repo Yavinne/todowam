@@ -1,9 +1,8 @@
 const STATUS_OPTIONS = [
-  { value: "todo", label: "To do" },
-  { value: "progress", label: "In progress" },
-  { value: "cancelled", label: "Cancelled" },
-  { value: "done", label: "Done" },
-  { value: "archived", label: "Archived" },
+  { value: "en_cours", label: "In progress" },
+  { value: "annule", label: "Cancelled" },
+  { value: "fait", label: "Done" },
+  { value: "archive", label: "Archived" },
 ];
 
 const PRIORITY_OPTIONS = [
